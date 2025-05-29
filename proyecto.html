@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Perfumería Elegante</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fefefe;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .productos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .producto {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 280px;
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .producto:hover {
+      transform: scale(1.03);
+    }
+
+    .producto img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .producto h3 {
+      margin-top: 10px;
+    }
+
+    .boton-comprar {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #e91e63;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #222;
+      color: white;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Perfumería Elegante</h1>
+    <p>Descubre tu esencia perfecta</p>
+  </header>
+
+  <section class="productos">
+    <div class="producto">
+      <img src="IMG/perfume1.jpeg" alt="Perfume 1">
+      <h3>Rosa Encantada</h3>
+      <p>Una fragancia floral suave y elegante.</p>
+      <a class="boton-comprar" href="#">Comprar</a>
+    </div>
+
+    <div class="producto">
+      <img src="IMG/perfume2.jpeg" alt="Perfume 2">
+      <h3>Oasis Nocturno</h3>
+      <p>Notas exóticas para momentos inolvidables.</p>
+      <a class="boton-comprar" href="#">Comprar</a>
+    </div>
+
+    <div class="producto">
+      <img src="IMG/perfume3.jpeg" alt="Perfume 3">
+      <h3>Amanecer Dulce</h3>
+      <p>Perfecto para el día a día, fresco y dulce.</p>
+      <a class="boton-comprar" href="#">Comprar</a>
+    </div>
+    <div class="producto">
+        <img src="IMG/perfume4.jpeg" alt="Perfume 3">
+        <h3>Amanecer Dulce</h3>
+        <p>Perfecto para el día a día, fresco y dulce.</p>
+        <a class="boton-comprar" href="#">Comprar</a>
+      </div>
+      <div class="producto">
+        <img src="IMG/perfume5.jpeg" alt="Perfume 3">
+        <h3>Amanecer Dulce</h3>
+        <p>Perfecto para el día a día, fresco y dulce.</p>
+        <a class="boton-comprar" href="#">Comprar</a>
+      </div>
+      <div class="producto">
+        <img src="IMG/perfume6.jpeg" alt="Perfume 3">
+        <h3>Amanecer Dulce</h3>
+        <p>Perfecto para el día a día, fresco y dulce.</p>
+        <a class="boton-comprar" href="#">Comprar</a>
+      </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Perfumería Elegante - Todos los derechos reservados
+  </footer>
+
+</body>
+</html>

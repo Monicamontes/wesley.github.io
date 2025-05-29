@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Fragancias Wesley</title>
+</head>
+<body>
+
+  <header>
+    <div class="logo" style="text-align: center;">
+      <img src="IMG/wesley.jpg.jpg" width="300" height="180" alt="Logo Wesley">
+    </div>
+
+    <div class="barras">
+      <button onclick="abrir_cerrar_menu()" class="boton_menu" id="x" aria-label="Abrir o cerrar menú">Menú</button>
+    </div>
+
+    <nav id="menu" class="desplegable">
+      <ul>
+        <li><a href="ace.html">Inicio</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="proyecto.html">Proyectos</a></li>
+        <li><a href="contac.html">Contáctanos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <h1>¿Qué es Fragancias WESLEY?</h1>
+    <p>
+      Fragancias WESLEY es más que una marca de perfumes, es una experiencia sensorial diseñada para 
+      quienes buscan destacar con elegancia, frescura y personalidad. Cada fragancia está inspirada 
+      en momentos únicos, en la belleza de la naturaleza y en la esencia de la autenticidad.
+      <br><br>
+      Descubre el aroma que mejor representa tu personalidad🌸
+    </p>
+  </div>
+  <script>
+    // Función para abrir y cerrar el menú
+    function abrir_cerrar_menu() {
+      const menu = document.getElementById('menu');
+      menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+  <script src="main.js"></script>
+</body>
+</html>
+
+
